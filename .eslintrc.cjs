@@ -8,8 +8,16 @@ export default {
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
+    ecmaFeatures: {
+      modules: true,
+      jsx: true
+    },
+    requireConfigFile: false,
+    parser: '@babel/eslint-parser'
   },
   plugins: ['vue'],
-  rules: {}
+  rules: {
+    'no-unused-vars': 2
+  }
 }
