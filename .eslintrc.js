@@ -18,6 +18,6 @@ module.exports = {
   },
   plugins: ['vue'],
   rules: {
-    'no-unused-vars': 2
+    'no-unused-vars': 1
   }
 }
