@@ -9,24 +9,25 @@
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix"
   },
   "dependencies": {
-    "element-plus": "^2.2.22",
-    "vue": "^3.2.41",
-    "vue-router": "4"
+    "element-plus": "^2.5.6",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.20",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.2",
-    "@babel/eslint-parser": "^7.19.1",
+    "@babel/core": "^7.23.9",
+    "@babel/eslint-parser": "^7.23.10",
     "@vitejs/plugin-vue": "^3.2.0",
-    "eslint": "^8.28.0",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-vue": "^9.7.0",
-    "husky": "^8.0.2",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
+    "eslint-plugin-vue": "^9.22.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.3.0",
+    "prettier": "^2.8.8",
     "unplugin-auto-import": "^0.11.5",
-    "unplugin-vue-components": "^0.22.11",
-    "vite": "^3.2.3",
+    "unplugin-vue-components": "^0.22.12",
+    "vite": "^3.2.8",
     "vite-plugin-eslint": "^1.8.1"
   },
   "gitHooks": {
